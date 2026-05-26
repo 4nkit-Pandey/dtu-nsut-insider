@@ -100,7 +100,7 @@ function AnimatedCounter({
   }, [isInView, target]);
 
   return (
-    <div className={`font-display text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extrabold ${color} leading-none tabular-nums tracking-tight`}>
+    <div className={`font-display text-lg sm:text-2xl md:text-3xl lg:text-4xl font-extrabold ${color} leading-none tabular-nums tracking-tight`}>
       {current.toLocaleString()}
       {suffix}
     </div>
